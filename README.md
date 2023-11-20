@@ -1,9 +1,9 @@
 # Career Track Analysis
-Exploring Student Enrollments and Completions in Data-Related Career Tracks.
+### Exploring Student Enrollments and Completions in Data-Related Career Tracks.
 
 This case study is taken from 365datascience.com Career Track Analysis Project.
 
-**Case Description**
+### **Case Description**
 
 One of the functionalities the 365 company introduced in a 2021 platform release included the option for student enrollment in a career track. The tracks represent an ordinal sequence of courses that eventually lead to obtaining the skills for one of three job titles: data scientist, data analyst, or business analyst.
 
