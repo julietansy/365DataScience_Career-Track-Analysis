@@ -63,7 +63,7 @@ WHERE track_completed = 1;
 SELECT 
 	YEAR(date_enrolled) AS year_enrolled,
 	MONTH(date_enrolled) AS month_enrolled, 
-	COUNT(student_id) as enrollment_count
+	COUNT(student_track_id) as enrollment_count
 FROM final
 GROUP BY year_enrolled, month_enrolled
 ORDER BY enrollment_count DESC
