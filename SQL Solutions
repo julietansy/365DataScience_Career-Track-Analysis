@@ -1,3 +1,4 @@
+```ruby
 -- Uploaded project file to MySQL Workbench 8.0 as a new schema (datascience365_career_track_analysis)
 
 USE datascience365_career_track_analysis;
@@ -129,3 +130,4 @@ ORDER BY subtotal_frequency DESC
 '61 to 90 days', '5', 'Quarterly', '17'
 '31 to 60 days', '12', 'Quarterly', '17'
 
+```
