@@ -1,0 +1,23 @@
+-- Question 1:
+-- Study your solution to Extracting the Data with SQL. How many days did it take the student with the most extended completion period to complete a career track?
+SELECT *
+FROM final
+WHERE track_completed = 1
+ORDER BY days_for_completion DESC;
+ -- Answer: 482 days
+ 
+ 
+-- Question 2:
+-- Study your solution to Extracting the Data with SQL. Referring to the student in the previous question, what career track did the student complete?
+SELECT *
+FROM final
+WHERE student_id = 10549;
+-- Answer: Data Analyst
+
+
+-- Question 3:
+-- Study your solution to Extracting the Data with SQL. How many track completions are there in total?
+SELECT COUNT(track_completed)
+FROM final
+WHERE track_completed = 1;
+-- Answer: 123
