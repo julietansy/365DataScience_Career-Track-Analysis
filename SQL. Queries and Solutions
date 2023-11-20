@@ -1,4 +1,4 @@
-## Uploaded project file to MySQL Workbench 8.0 as a new schema (datascience365_career_track_analysis)
+-- Uploaded project file to MySQL Workbench 8.0 as a new schema (datascience365_career_track_analysis)
 
 USE datascience365_career_track_analysis;
 
